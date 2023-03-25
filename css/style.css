@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav-hover:active{
+    color: #1523ff;
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.img-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-menu{
+    border: none;
+}
+
+.active{
+    background-color: #fff;
+    
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    background: #01b7fe;
+    color: #01b7fe;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+ul li a:hover{
+    color: #fff !important;
+    background: #008bc1;
+    font-weight: bold !important;
+    border-radius: 10px;
+    border: 1px #fff solid;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+
+
+.nav-shad {
+  box-shadow: 0 4px 4px 5px rgba(0,0,0,.2);
+}
+
+.nav-logo{
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%) !important;
+}
+
+.nav-color{
+    background-color: #01b7fe;
+}
+
+.color-hr{
+    color: #008bc1;
+    border: 1px #008bc1 solid !important;
+}
+
+.bg-color{
+    background-color: #303030 !important;
+}
+
+.wall{
+    background-color: #01b7fe;
+    padding: 30px 30px;
+    clear: top;
+    background-image: linear-gradient(#01b7fe,  #A0FAFF);
+}
+
+.waves {
+    background-size: 50px;
+    resize: 200px;
+    background: #01b7fe !important;
+}
+
+.header-style{
+    color: #01b7fe;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.header1-style{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.headtext {
+}
+
+.grdbg {
+   background-image: linear-gradient(#000,  #242424 70%);
+   margin-top: -50px;
+}
+
+.typed {
+  overflow: hidden;
+  animation: typing;
+  animation-duration: 2.0s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.prgf-style{
+    color: #fff;
+}
+
+.prgf-main-style{
+    color: #fff;
+    font-size: 115%;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.intro{
+    font-weight: bold;
+    font-size: 230%;
+    color: #fff;
+    text-align: center;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.intro-prgf{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    
+    text-align: center;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.project {
+    font-weight: bold;
+    font-size: 200%;
+    color: #fff;
+    text-align: center;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.card-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center; 
+
+}
+
+.card-head{
+    font-weight: bold;
+    font-size: 170%;
+    color: #fff;
+    text-align: center;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.card{
+    display: inline-block;
+    background-color: #01b7fe;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#01b7fe,  #A0FAFF);
+}
+
+.card-desc{
+    color: #000;
+    text-align: center;
+    font-size: 120%;
+    position: relative;
+    background: transparent !important;
+    font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.card-shad{
+   box-shadow: 0 5px 20px 1px #000;
+}
+
+.btn-card{
+   background-color: #01b7fe;
+   border: 2px transparent solid;
+   border-radius: 10px;
+   font-weight: bold;
+   color: #fff;
+   width: 88%;
+   position: absolute;
+   bottom: 20px;
+}
+
+.btn-card:hover{
+   background-color: #fff;
+   color: #01b7fe;
+   width: 100%;
+   width: 88%;
+   position: absolute;
+   bottom: 20px;
+}
+
+.hr-style{
+   color: #01b7fe;
+   border: 1px #01b7fe solid;
+}
+
+.footer{
+   background-color: #01b7fe;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-image: linear-gradient(#01b7fe,  #A0FAFF);
+   font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.footer-about{
+   font-weight: bold;
+   font-size: 35px;
+   color: #fff;
+   margin-top: 30px;
+   padding-left: 20px;
+   font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.footer-about-desc{
+   padding-left: 20px;
+   font-size: 15px;
+   color: #000;
+   font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.footer-about-link{
+   padding-left: 20px;
+   font-size: 20px;
+   color: #fff;
+   font-weight: bold;
+}
+
+.footer-about-btn{
+   padding-left: 20px;
+   font-size: 15px;
+   color: #000;
+   text-decoration: none;
+}
+.footer-about-btn:hover{
+   padding-left: 20px;
+   font-size: 15px;
+   color: #fff;
+   text-decoration: none;
+}
+
+.hr-footer{
+   padding-right: 10px;
+   border: 1px;
+}
+
+.closing{
+   font-weight: bold;
+   color: #000;
+   font-size: 17px;
+   text-align: center;
+   font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
+
+.closing-desc{
+   font-size: 13px;
+   text-align: center;
+   color: #000;
+   font-family: "Monospace"; src: url:("./assets/font/Monospace.ttf");
+}
